@@ -1,0 +1,111 @@
+/***************************************************
+Add your Google Fonts
+Update ALL the named colours to create a monochromatic scheme
+Style the menus - one horizontally and one vertically
+Add the hover/active effects to your menu items
+***************************************************/
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 16px;
+    line-height: 1.6;
+    font-family: 'Fjalla One', helvetica, arial, sans-serif;
+}
+html, body{
+    background-color: #5E1E01;
+}
+h1{
+    font-size: 6.854rem;
+    font-family: 'Old Standard TT', serifPalatino, serif; 
+    padding: 1rem 2rem;
+    color: #5E1E01;
+}
+h2{
+    font-size: 4.23rem;
+    font-family: 'Neuton', Palatino, serif;
+    padding: 1rem 2rem;
+    color: #5E1E01;
+}
+nav li{
+    font-size: 2.618rem;
+}
+p{
+    font-size: 1.618rem;
+    padding: 1rem 2rem;
+    color: #C05F50;
+}
+.wrapper{
+    max-width: 1400px; 
+    width: 80%;
+    margin: 0 auto;
+    background-color: #912E02;
+    color: #912E02;
+}
+header{
+    border-bottom: 0.8rem solid #701E01;
+    background-color: #A45633;
+}
+.menu-h{
+    width: 100%;
+    background-color: #A45633;
+	text-align: right;
+    font-size: 0px;
+}
+    .menu-h li{
+        display: inline-block;
+        list-style-type: none;
+        margin-bottom: -1px;
+    }
+        .menu-h a,
+        .menu-h a:link,
+        .menu-h a:visited{
+            display: inline-block;
+	        padding: 26.1px;
+	        text-decoration: none;
+	        color: #5E1E01;
+	        font-weight: 300;
+	        transition-duration: 0.6s;
+        }
+        .menu-h a:hover,
+        .menu-h a:active{
+            background-color: #630D00;
+            color: #C05F50;
+	        text-decoration: underline;
+        }
+.menu-v{
+    margin-top: 30px;
+    padding: 0px;
+    display: inline-block;
+    font: bold 16px Helvetica, Verdana, Arial, sans-serif;
+    line-height: 400%;
+    width: 205px;
+    border-top: 2px solid #761A1A;
+}
+    .menu-v li{
+          border-bottom: 2px solid #761A1A;
+          width: 205px;
+          list-style-type: none;
+    }
+        .menu-v a{
+            display: block;
+            text-decoration: none;
+            background: #600;
+            padding: 0 0 0 20px;
+            width: 0px;
+            transition: 0.5s ease;
+            color: #5E1E01;
+        }
+        .menu-v a:hover{
+            width: 205px;
+            color: #9C4D41;
+        }
+main{
+    width:80%;
+    float: right;
+}
+footer{
+    clear:both;
+}
